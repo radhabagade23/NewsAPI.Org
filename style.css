@@ -5,12 +5,12 @@
 
 body {
     background-color: black;
+    max-width: 1450px;
+    margin: auto;
 }
 
 .main-container {
     background-color: #F8F8F4;
-    max-width: 1800px;
-    margin: 0 auto; 
     position: relative;
 }
 
@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 51px;
-    font-size: 120px;
+    font-size: 80px;
     color: #3c3030;
 }
 .horizontal-line{
@@ -48,9 +48,9 @@ form {
 }
 
 .search {
-    border: 3px solid rgb(216, 207, 207);
-    width: 300px;
-    height: 70px;
+    border: 2px solid rgb(212, 202, 202);
+    width: 250px;
+    height: 60px;
     padding-left: 10px;
     margin-top: 28px;
     display: flex;
@@ -59,28 +59,28 @@ form {
 }
 
 .search-icon {
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(156, 152, 152);
 }
 
 .search-input {
     padding: 4px;
     border: none;
-    font-size: 25px;
+    font-size: 20px;
     background-color: #F8F8F4;
     flex-grow: 1;
 }
 
 .text {
     margin-top: 28px;
-    padding: 23px;
-    font-size: 25px;
+    padding: 20px;
+    font-size: 20px;
     background-color: rgb(237, 65, 65);
     color: white;
 }
 
 .bottom-container {
-    margin: 35px auto 85px;
+    margin: 35px 150px;
     max-width: 1200px;
     padding: 20px 20px;
 }
@@ -88,24 +88,25 @@ form {
 .grid-row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-    column-gap: 110px;
+    column-gap: 80px;
     row-gap: 117px;
+    position: relative;
 }
 .column img {
-    width: 100%;
-    height: 155px;
+    width:90%;
+    height: 140px;
     margin-bottom: 19px;
 }
 
 .column b {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 1;
     color:#3c3030;
 }
 
 .column p {
     line-height: 1.4;
-    font-size: 21px;
+    font-size: px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#5b4f4f
     
